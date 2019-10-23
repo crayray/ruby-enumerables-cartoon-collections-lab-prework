@@ -16,7 +16,7 @@ def summon_captain_planet(array)# code an argument here
 end
 
 def long_planeteer_calls(array)
-  char = 0
+  # char = 0
   if array.any?{|char| char.length > 4}
     return true
   else
