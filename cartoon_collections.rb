@@ -1,11 +1,9 @@
 def roll_call_dwarves(array)
-  array.map do |dwarf|
-    i = 0
-    while i < array.length
-    puts "#{i+=1}. #{dwarf}"
+  i = 0
+  while i < array.length
+    puts "#{i+=1}. #{array[i]}"
     i+=1
   end
-end
 end
 
 def summon_captain_planet# code an argument here
