@@ -17,7 +17,7 @@ end
 
 def long_planeteer_calls(array)
   char = 0
-  if array.include?{|char| char.length > 4}
+  if array.any?{|char| char.length > 4}
     return true
   else
     return false
