@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
-  array.map do |dwarf| 
+  array.map do |dwarf|
     i = 0
     while i < array.length
     puts "dwarf"
