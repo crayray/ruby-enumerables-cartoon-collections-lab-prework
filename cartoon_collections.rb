@@ -28,6 +28,6 @@ def find_the_cheese(array)
   if array.find{|cheese| cheese == "cheddar" || "gouda" || "camambert" }
     return true
   end
-  else 
+  else
     return nil
 end
