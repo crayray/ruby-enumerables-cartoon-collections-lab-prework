@@ -2,7 +2,7 @@ def roll_call_dwarves(array)
   array.map do |dwarf, i|
     i = 0
     i+=1
-    puts "#{i}#{dwarf}"
+    puts "#{dwarf}"
     dwarf
   end
 end
